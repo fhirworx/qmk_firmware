@@ -92,5 +92,8 @@ compile_commands.json
 .clangd/
 .cache/
 
-/keyboards
+# only keep one keyboard/user setting for git pulls
+/keyboards/*
 !/keyboards/kertdyl
+/users/*
+!/users/manna-harbour_miryoku
