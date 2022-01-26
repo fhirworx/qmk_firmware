@@ -18,6 +18,17 @@
 
 #include "config_common.h"
 
+/* USB Device descriptor parameter */
+#define VENDOR_ID       0x1234
+#define PRODUCT_ID      0x5678
+#define DEVICE_VER      0x0000
+#define MANUFACTURER    FHIRworx
+#define PRODUCT         kertdyl
+
+/* key matrix size */
+#define MATRIX_ROWS 3
+#define MATRIX_COLS 12
+
 #define MATRIX_ROW_PINS { B7, D6, C7 }
 #define MATRIX_COL_PINS { D7, B5, D1, D0, C6, B6, F0, D2, D3, F4, F1, F5 }
 #define UNUSED_PINS
