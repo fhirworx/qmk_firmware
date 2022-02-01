@@ -1,15 +1,16 @@
-# MCU name
 MCU = atmega32u4
-
-# Processor frequency
 F_CPU = 8000000
-
-# Bootloader selection
 BOOTLOADER = caterina
-
-# Build Options
-#   change yes to no to disable
-#
 BLUETOOTH_ENABLE = yes
 BLUETOOTH_DRIVER = AdafruitBLE
 CONSOLE_ENABLE = no
+BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
+MOUSEKEY_ENABLE = yes       # Mouse keys
+EXTRAKEY_ENABLE = yes       # Audio control and System control
+COMMAND_ENABLE = yes        # Commands for debug and configuration
+NKRO_ENABLE = no           # Enable N-Key Rollover
+BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
+UNICODE_ENABLE = yes        # Unicode
+AUDIO_ENABLE = no           # Audio output
+DEFAULT_FOLDER = kertdyl
